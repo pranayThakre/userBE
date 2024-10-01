@@ -1,0 +1,29 @@
+{
+  "name": "user-places-backend",
+  "version": "1.0.0",
+  "description": "This is backend project of the MERN user-places full stack course. It is developed in node js and express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranay",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "mongoose-unique-validator": "^5.0.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}
